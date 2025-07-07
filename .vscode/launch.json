@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "MCP Server with SDK Launch",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/build-mcp-server/mcp-service-with-sdk/weather/bin/Debug/net8.0/weather.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "MCP Server with SDK Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}
